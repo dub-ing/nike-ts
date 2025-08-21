@@ -6,7 +6,7 @@ function Button({ label, iconURL, backgroundColor, textColor, borderColor }) {
         backgroundColor
           ? `${backgroundColor} ${textColor} ${borderColor}`
           : `bg-coral-red rounded-full text-white border-coral-red`
-      } rounded-full w-full`}
+      } rounded-full`}
     >
       {label}
       {iconURL && (
